@@ -3,59 +3,58 @@
 
 <head>
     <meta charset = "UTF-8">
-    <meta name="viewport" content = "width=device-widith, initial-scale=1.0">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Vitrine</title>
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <h1>Toma No Caneco</h1>
 
-         <div class="menu_principal">
-        <a href="http://" target="_blank" rel="noopener noreferrer">Inicio</a>
+        <nav class="menu_principal">
+            <a href="http://" target="_blank" rel="noopener noreferrer">Inicio</a>
+        </nav>
 
-    </div>
+    </header>
 
-    </div>
 
-   
+    <main>
+        
+        <section class="container_slider">
+            <button id="prev_button"> < </button>
 
-    <div class="contaner_slider">
+            <div class="container_img">
+                <img src="/Img/Amor.png" alt="caneca" class="slider_caneca">
+                <img src="/Img/Anime 1.png" alt="caneca" class="slider_caneca">
+                <img src="/Img/Anime 2.png" alt="caneca" class="slider_caneca">
+                <img src="/Img/Bom dia.png" alt="caneca" class="slider_caneca">
+                <img src="/Img/Especial.png" alt="caneca" class="slider_caneca">
+                <img src="/Img/Gato Café.png" alt="caneca" class="slider_caneca">
+                <img src="/Img/Professor.png" alt="caneca" class="slider_caneca">
+                <img src="/Img/Cupcake.png" alt="caneca" class="slider_caneca">
+            </div>
 
-        <button id="prev_button"> < </button>
+            <button id="next_button"> > </button>
+        </section>
 
-        <div class="contaner_img">
-            <img src="/Img/Amor.png" alt="caneca" class="slider_caneca">
-            <img src="/Img/Anime 1.png" alt="caneca" class="slider_caneca">
-            <img src="/Img/Anime 2.png" alt="caneca" class="slider_caneca">
-            <img src="/Img/Bom dia.png" alt="caneca" class="slider_caneca">
-            <img src="/Img/Especial.png" alt="caneca" class="slider_caneca">
-            <img src="/Img/Gato Café.png" alt="caneca" class="slider_caneca">
-            <img src="/Img/Professor.png" alt="caneca" class="slider_caneca">
-            <img src="/Img/Cupcake.png" alt="caneca" class="slider_caneca">
-        </div>
+        <section class="vitrine">
 
-        <button onclick="changeImg()"> > </button>
+            <div class="card_vitrine">
+                <img src="/Img/Vibes.png" alt="caneca">
+                <p>Caneca Vibes R$ 50,00</p>
+            </div>
 
-    </div>
+            <div class="card_vitrine">
+                <img src="/Img/Bom dia 2.png" alt="caneca">
+                <p>Caneca Bom dia R$ 45,00</p>
+            </div>
 
-    <div class="vitrine">
-
-        <div class="card_vitrine">
-            <img src="/Img/Vibes.png" alt="caneca">
-            <p>Caneca Vibes R$ 50,00</p>
-        </div>
-
-        <div class="card_vitrine">
-            <img src="/Img/Bom dia 2.png" alt="caneca">
-            <p>Caneca Bom dia R$ 45,00</p>
-        </div>
-
-    </div>
-
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 
-<script src="script.js"></script>
+
 
 </html>
