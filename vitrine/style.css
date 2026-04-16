@@ -1,4 +1,7 @@
 body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #2a1e1e;
 }
 
@@ -14,7 +17,7 @@ body{
     color: #503850;
 }
 
-.contaner_slider{
+.container_slider{
     margin: 5px 0px;
     display: flex;
     width: 100%;
@@ -24,7 +27,7 @@ body{
     background-color: #f99fa9;
 }
 
-.contaner_img{
+.container_img{
     position: relative;
     display: flex;
     align-items: center;
