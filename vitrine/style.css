@@ -3,6 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: #2a1e1e;
+    font-family: "Aubrey", system-ui;
+
 }
 
 .header{
@@ -10,21 +12,33 @@ body{
     top: 0;
     z-index: 1000;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: #ffc5c1;
     color: #503850;
 }
 
+.header img{
+    max-width: 30%;
+}
+
+.header p{
+    margin: 0px 0px 10px 0px ;    
+}
+
+.header a{
+    text-decoration: none;
+}
+    
+
 .container_slider{
-    margin: 5px 0px;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     min-height: 30vh;
-    background-color: #f99fa9;
+    background-color: #583f3f;
 }
 
 .container_img{
@@ -45,22 +59,59 @@ body{
 }
 
 .vitrine{
-    margin: 5px 0px;
     display: flex;
-    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 60rem;
 }
 .card_vitrine{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 256px;
-    height: 256px;
+    margin: 20px 15px;
+    padding: 20px 0px 0px 0px;
+    max-width: 30%;
+    font-size: 32px;
     color: #503850;
-    background-color: #ffc5c1;
-    border-radius: 2px;
+    background-color: #faeddf;
+    border-radius: 20px 50px 130px 100px;
 }
 
 .card_vitrine img{
     width: 80%;
     height: 80%;
+    border-radius: 40px;
 }
+
+
+/*Ignorar esses códigos, vou revisar depois*/
+
+/*
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.toma {
+    font-family: "Borel", cursive;
+    padding: 0px 0px 73px 0px;
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #888; /* mais apagado 
+}
+
+.caneco { 
+    font-family: "Borel", cursive;
+    position: absolute;     
+    margin: 0px;
+    font-weight: 700;
+    color: #503850; /* destaque 
+}
+*/
