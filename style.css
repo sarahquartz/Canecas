@@ -13,14 +13,17 @@ body{
     z-index: 1000;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: flex-start;
-    background-color: #ffc5c1;
+    background-color: #faeddf;
     color: #503850;
 }
 
-.header img{
-    max-width: 30%;
+.header div{
+    width: 30%;
+}
+
+.header img{    
+    width: 100%;;
 }
 
 .header p{
@@ -84,6 +87,42 @@ body{
     height: 80%;
     border-radius: 40px;
 }
+
+/* caneca.html */
+
+.canceca_mostruario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.caneca_mostruario_img{
+    display: flex;
+    width: 20rem;
+    border: 0.4rem solid #faeddf;
+    border-radius: 0.4rem;
+    background-color: #faeddf;
+}
+
+.caneca_mostruario_img img{
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+.canceca_descricao{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: end;
+    width: 20rem;
+    color: white;
+    border: 0.4rem solid #faeddf;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
 
 
 /*Ignorar esses códigos, vou revisar depois*/
