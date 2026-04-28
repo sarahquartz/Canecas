@@ -1,4 +1,11 @@
 const slider = document.getElementsByClassName("slider_caneca");
+const canceca_mostruario = document.getElementById("canceca_mostruario");
+
+const params = new URLSearchParams(window.location.search);
+
+var canecaSrc = params.get('data')
+
+
 
 console.log(slider);
 
@@ -18,5 +25,13 @@ function changeImg(){
     
     console.log("img: " + currentImg);  
 }
+
+
+
+function mostrarImg(){
+    canceca_mostruario.src = canecaSrc;
+}
+
+
 
 setInterval(changeImg, 7000);

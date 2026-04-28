@@ -7,6 +7,10 @@ body{
 
 }
 
+a{
+    text-decoration: none;
+}
+
 .header{
     position: sticky;
     top: 0;
@@ -14,8 +18,9 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: #faeddf;
+    background-color: #ffc5c1;
     color: #503850;
+    padding: 0.5rem;
 }
 
 .header div{
@@ -82,6 +87,10 @@ body{
     border-radius: 20px 50px 130px 100px;
 }
 
+.card_vitrine:hover{
+    cursor:pointer;
+}
+
 .card_vitrine img{
     width: 80%;
     height: 80%;
@@ -100,10 +109,11 @@ body{
 
 .caneca_mostruario_img{
     display: flex;
-    width: 20rem;
-    border: 0.4rem solid #faeddf;
+    width: 40rem;
+    border: 0.2rem solid #faeddf;
     border-radius: 0.4rem;
     background-color: #faeddf;
+    margin: 0.2rem;
 }
 
 .caneca_mostruario_img img{
@@ -115,12 +125,13 @@ body{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    align-items: end;
     width: 20rem;
     color: white;
-    border: 0.4rem solid #faeddf;
+    border: 0.2rem solid #faeddf;
     border-radius: 0.4rem;
     text-align: center;
+    align-items: center;
+    margin: 0.2rem;
 }
 
 
