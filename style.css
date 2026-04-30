@@ -78,13 +78,12 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 15px;
+    margin: 1rem 0.7rem;
     padding: 20px 0px 0px 0px;
     max-width: 30%;
-    font-size: 32px;
+    font-size: 2rem;
     color: #503850;
     background-color: #faeddf;
-    border-radius: 20px 50px 130px 100px;
 }
 
 .card_vitrine:hover{
@@ -94,7 +93,6 @@ a{
 .card_vitrine img{
     width: 80%;
     height: 80%;
-    border-radius: 40px;
 }
 
 /* caneca.html */
@@ -134,7 +132,76 @@ a{
     margin: 0.2rem;
 }
 
+.calcular_frete{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
 
+.calcular_frete h2{
+    color: greenyellow;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: nowrap;
+}
+
+
+/* compra.html */
+
+.formulario_compra{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons div{
+    display: flex;
+    border: 0.3rem solid white;
+    background-color: white;
+    width: fit-content;
+    margin: 0.3rem;
+    margin-right: 0px;
+}
+
+.icon1{
+      border-radius: 10px 2px 2px 2px;
+}
+
+.icon2{
+      border-radius: 2px 2px 2px 2px;
+      margin-left: 0px;
+      margin-right: 0px;
+}
+
+.icon3{
+      border-radius: 2px 10px 2px 2px;
+      margin-left: 0px;
+}
+
+.div_forms{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: black;
+    background-color: white;
+    width: 30%;
+    margin-left: 0.3rem;
+}
+
+.div_forms div{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+}
+
+.div_forms label{
+    display: flex;
+    width: 3rem;
+}
 
 /*Ignorar esses códigos, vou revisar depois*/
 

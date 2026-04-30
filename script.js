@@ -1,5 +1,6 @@
 const slider = document.getElementsByClassName("slider_caneca");
 const canceca_mostruario = document.getElementById("canceca_mostruario");
+const cep = document.getElementById("cep");
 
 const params = new URLSearchParams(window.location.search);
 
@@ -28,8 +29,17 @@ function changeImg(){
 
 
 
+
+
 function mostrarImg(){
     canceca_mostruario.src = canecaSrc;
+}
+
+function calcularFrete(){
+    const novoh2 = document.createElement("h2");
+    novoh2.textContent = "Frete Grátis";
+    getElementById("frete_calcular").appendChild(novoh2);
+    
 }
 
 
