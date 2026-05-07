@@ -46,7 +46,10 @@ a{
     justify-content: center;
     align-items: center;
     min-height: 30vh;
-    background-color: #583f3f;
+    background: url("img/cover.png"), no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .container_img{
@@ -79,20 +82,30 @@ a{
     flex-direction: column;
     align-items: center;
     margin: 1rem 0.7rem;
-    padding: 20px 0px 0px 0px;
+    padding: 0 px;
     max-width: 30%;
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: #503850;
-    background-color: #faeddf;
+    background-color: rgb(250, 237, 223);
+    border-radius: 40px 40px 20px 20px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;  
 }
 
 .card_vitrine:hover{
     cursor:pointer;
+    transform: translateY(-4px);
+    box-shadow: 0px 20px 30px 5px rgba(250, 237, 223, 0.2);
 }
 
 .card_vitrine img{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card_vitrine:hover img {
+    transform: scale(1.05);
 }
 
 /* caneca.html */
@@ -202,33 +215,3 @@ a{
     display: flex;
     width: 3rem;
 }
-
-/*Ignorar esses códigos, vou revisar depois*/
-
-/*
-.logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-}
-
-.toma {
-    font-family: "Borel", cursive;
-    padding: 0px 0px 73px 0px;
-    margin: 0px;
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #888; /* mais apagado 
-}
-
-.caneco { 
-    font-family: "Borel", cursive;
-    position: absolute;     
-    margin: 0px;
-    font-weight: 700;
-    color: #503850; /* destaque 
-}
-*/
