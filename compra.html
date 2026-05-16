@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aubrey&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Vitrine</title>
 </head>
 
@@ -21,7 +21,7 @@
         </div>
         <nav>
             <div class="mid-header">
-                <a href="index.html"><img src="img/logo.svg"></a><div>CATEGORIAS</div><div>PERSONALIZAÇÃO</div><div>CONTATO</div><div>SOBRE NÓS</div>
+                <a href="index.html"><img src="assets/img/logo.svg"></a><div>CATEGORIAS</div><div>PERSONALIZAÇÃO</div><div>CONTATO</div><div>SOBRE NÓS</div>
             </div>
             <div class="bot-header">
                 <div>GEEK</div><div>DARK</div><div>LOVE</div><div>PRIDE</div><div>FERIADOS</div>
@@ -36,23 +36,23 @@
 
         <div class="icons">
             <div class="icon1">
-            <input type="radio" name="pagamento_tipo" id="pix_icon">
-            <img src="/img/pix_icon.svg" alt="pix">
+            <input type="radio" name="pagamento_tipo" id="pix_icon" checked="true">
+            <img src="assets/img/pix_icon.svg" alt="pix">
             </div>
 
             <div class="icon2">
             <input type="radio" name="pagamento_tipo" id="cartao_icon">
-            <img src="/img/card_icon.png" alt="card">
+            <img src="assets//img/card_icon.png" alt="card">
             </div>
 
             <div class="icon3">
             <input type="radio" name="pagamento_tipo" id="boleto_icon">
-            <img src="/img/boleto_icon.png" alt="boleto">
+            <img src="assets//img/boleto_icon.png" alt="boleto">
             </div>
         </div>
 
 
-        <form action="" class="div_forms">
+        <form action="" class="div_forms" id="hidden_forms">
             <div>
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome">
@@ -115,7 +115,7 @@
 
 </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/script/compra.js"></script>
 </body>
 
 
