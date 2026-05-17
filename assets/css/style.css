@@ -206,10 +206,35 @@ a{
 
 /* compra.html */
 
+
 .formulario_compra{
     color: white;
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+.qrcode{
+    display: none;
+    width: 30%;
+}
+
+.spinner{
+    opacity: 0;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border: solid 5px;
+    border-color: gray transparent;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+    z-index: 1000;
+}
+
+@keyframes spin{
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .icons{
@@ -246,19 +271,21 @@ a{
     gap: 1rem;
     color: black;
     background-color: white;
-    width: 30%;
+    width: 100%;
     margin-left: 0.3rem;
+    align-items: center;
 }
 
 .div_forms div{
     display: flex;
+    justify-content:flex-start;
     margin: 2px;
     padding: 2px;
 }
 
 .div_forms label{
     display: flex;
-    width: 3rem;
+    width: 10rem;
 }
 
 
