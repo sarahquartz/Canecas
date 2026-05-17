@@ -88,7 +88,7 @@ main{
 .lupa img{
     display: flex;
     align-items: center;
-    width: 25px;
+    width: 2.7rem;
 }
 
 .mid-header-input::placeholder{
