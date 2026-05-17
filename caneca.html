@@ -8,24 +8,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aubrey&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css"">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/caneca.css">
     <title>Vitrine</title>
 </head>
 
 <body onload="mostrarImg()">
     
     <header class="header">
+        
         <div class="up-header">
-            <div>10% OFF NO PIX</div> <div>°</div> <div>FRETE GRÁTIS</div> <div>°</div> <div>PARCELAS DE ATÉ 10X SEM JUROS</div>
-
+            <div>FRETE GRÁTIS ACIMA DE R$60</div> <div>°</div> <div>10% OFF NO PIX</div> <div>°</div> <div>PARCELAS DE ATÉ 10X SEM JUROS</div>
         </div>
-        <nav>
-            <div class="mid-header">
-                <a href="index.html"><img src="assets/img/logo.svg"></a><div>CATEGORIAS</div><div>PERSONALIZAÇÃO</div><div>CONTATO</div><div>SOBRE NÓS</div>
+        
+
+        <nav class="mid-header">
+            <a href="index.html"><img src="assets/img/logo.svg"></a>
+            <div class="mid-header-menu">
+                <div class="mid-header-src">
+                    <input class="mid-header-input" placeholder="Buscar produtos...">
+                    <a href="#" class="lupa">
+                        <img src="assets/img/lupa.svg" alt="lupa">
+                    </a>
+                </div>
+                <a href="#">CONTATO</a>
+                <a href="#">SOBRE NÓS</a>
+
             </div>
-            <div class="bot-header">
-                <div>GEEK</div><div>DARK</div><div>LOVE</div><div>PRIDE</div><div>FERIADOS</div>
-            </div>
+        </nav>
+
+        <nav class="bot-header">
+            <a href="#"><img src="assets/img/geek.svg" class="img-categoria">GEEK</a><a href="#"><img src="assets/img/dark.svg" class="img-categoria">DARK</a><a href="#"><img src="assets/img/love.svg" class="img-categoria">LOVE</a><a href="#"><img src="assets/img/pride.svg" class="img-categoria">PRIDE</a><a href="#"><strong>+</strong>CATEGORIAS</a>
         </nav>
     </header>
 
@@ -51,7 +65,7 @@
                 <h2>Frete Gráris</h2>
             </div>
                 
-                <button><a href="/compra.html">Comprar Agora</a></button>
+                <button><a href="compra.html">Comprar Agora</a></button>
         </div>
 
         
@@ -105,7 +119,7 @@
     </div>
 
     <div class="footer_bottom">
-        <p>© 2026 Sua Loja de Canecas. Todos os direitos reservados.</p>
+        <p>© 2026 Toma no Caneco. Todos os direitos reservados.</p>
     </div>
 
 </footer>

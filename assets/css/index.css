@@ -1,0 +1,119 @@
+
+/* vitrine */
+
+.section-vitrine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.vitrine-info {
+    max-width: 480px;
+    color:rgb(91, 67, 67);
+    border-right: 5px solid #5B4343;
+    padding-right: 20px;
+}
+
+.vitrine-info h1{
+    font-size: 2rem;
+}
+
+.vitrine-info p{
+    font-size: 1.2rem;
+}
+
+.vitrine-info span{
+    display: block;
+}
+
+.vitrine{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex: 1;
+}
+.card_vitrine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.7rem;
+    padding: 0;
+    max-width: 220px;
+    color: #5B4343;
+    background-color: #F5E7E0;
+    border-radius: 40px 40px 20px 20px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}
+
+.card_vitrine h3{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.preco {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.parcela {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.desconto{
+    font-size: 0.7rem;
+    font-weight: 300; 
+}
+
+.card_vitrine:hover{
+    cursor:pointer;
+    transform: translateY(-4px);
+    box-shadow: 0px 20px 30px 5px rgba(53, 50, 47, 0.2);
+}
+
+.card_vitrine img{
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card_vitrine:hover img {
+    transform: scale(1.05);
+}
+
+/* slider 
+.container_slider{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background: url("img/cover.png"), no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container_img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 384px;
+    height: 384px;
+}
+
+.slider_caneca{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0;
+} */

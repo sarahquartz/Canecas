@@ -8,27 +8,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aubrey&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Vitrine</title>
 </head>
 
 <body>
     
     <header class="header">
+        
         <div class="up-header">
-            <div>10% OFF NO PIX</div> <div>°</div> <div>FRETE GRÁTIS</div> <div>°</div> <div>PARCELAS DE ATÉ 10X SEM JUROS</div>
-
+            <div>FRETE GRÁTIS ACIMA DE R$60</div> <div>°</div> <div>10% OFF NO PIX</div> <div>°</div> <div>PARCELAS DE ATÉ 10X SEM JUROS</div>
         </div>
-        <nav>
-            <div class="mid-header">
-                <a href="index.html"><img src="assets/img/logo.svg"></a><div>CATEGORIAS</div><div>PERSONALIZAÇÃO</div><div>CONTATO</div><div>SOBRE NÓS</div>
-            </div>
-            <div class="bot-header">
-                <div>GEEK</div><div>DARK</div><div>LOVE</div><div>PRIDE</div><div>FERIADOS</div>
+        
+
+        <nav class="mid-header">
+            <a href="index.html"><img src="assets/img/logo.svg"></a>
+            <div class="mid-header-menu">
+                <div class="mid-header-src">
+                    <input class="mid-header-input" placeholder="Buscar produtos...">
+                    <a href="#" class="lupa">
+                        <img src="assets/img/lupa.svg" alt="lupa">
+                    </a>
+                </div>
+                <a href="#">CONTATO</a>
+                <a href="#">SOBRE NÓS</a>
+
             </div>
         </nav>
-    </header>
 
+        <nav class="bot-header">
+            <a href="#"><img src="assets/img/geek.svg" class="img-categoria">GEEK</a><a href="#"><img src="assets/img/dark.svg" class="img-categoria">DARK</a><a href="#"><img src="assets/img/love.svg" class="img-categoria">LOVE</a><a href="#"><img src="assets/img/pride.svg" class="img-categoria">PRIDE</a><a href="#"><strong>+</strong>CATEGORIAS</a>
+        </nav>
+    </header>
 
     <main>
         
@@ -48,70 +61,43 @@
         </section>---> 
         <section class="section-vitrine">
             <article class="vitrine-info">
-                <h1>Criado por você, estampado no Caneco</h1>
-                <p>Personalize sua própria caneca, escolha estilo e arte!</p>
-                <button>Detalhes</button>
+                <h1>Criado por você, <span>estampado no Caneco</span></h1>
+                <p>Personalize sua própria caneca, <span>escolha <strong>estilo</strong> e <strong>arte</strong>!</span></p>
+                <a href="#"><strong>+</strong>Detalhes</a>
             </article>
             <article class="vitrine">
-                <div class="card_vitrine" onclick="window.open('caneca.html?data=assets/img/vibes.png', '_self')">
-                    <img src="assets/img/vibes.png" alt="caneca">
-                    <p>Caneca Vibes R$ 50,00</p>
-                </div>
-
                 <div class="card_vitrine" onclick="window.open('caneca.html?data=assets/img/anime2.png', '_self')">
                     <img src="assets/img/anime2.png" alt="caneca">
-                    <p>Caneca Bom dia R$ 45,00</p>
+                    <h3>Caneca Anime1</h3>
+                    <p class="preco">R$ 50,00</p>
+                    <p class="parcela">5x de R$10,00 sem juros</p>
+                    <p class="desconto">10% OFF no Pix</p>
+
+                </div>
+
+                <div class="card_vitrine" onclick="window.open('caneca.html?data=assets/img/amor.png', '_self')">
+                    <img src="assets/img/amor.png" alt="caneca">
+                    <h3>Caneca Amo Você</h3>
+                    <p class="preco">R$ 50,00</p>
+                    <p class="parcela">5x de R$10,00 sem juros</p>
+                    <p class="desconto">10% OFF no Pix</p>
                 </div>   
 
-                <div class="card_vitrine">
-                    <img src="assets/img/amor.png" alt="caneca" onclick="window.open('caneca.html?data=img/amor.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
+                <div class="card_vitrine" onclick="window.open('caneca.html?data=assets/img/cupcake.png', '_self')">
+                    <img src="assets/img/cupcake.png" alt="caneca">
+                    <h3>Caneca Cupcake</h3>
+                    <p class="preco">R$ 50,00</p>
+                    <p class="parcela">5x de R$10,00 sem juros</p>
+                    <p class="desconto">10% OFF no Pix</p>
                 </div>   
 
-                <div class="card_vitrine">
-                    <img src="assets/img/anime2.png" alt="caneca" onclick="window.open('caneca.html?data=img/anime2.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
+                <div class="card_vitrine"  onclick="window.open('caneca.html?data=assets/img/anime1.png', '_self')">
+                    <img src="assets/img/anime1.png" alt="caneca">
+                    <h3>Caneca Anime2</h3>
+                    <p class="preco">R$ 50,00</p>
+                    <p class="parcela">5x de R$10,00 sem juros</p>
+                    <p class="desconto">10% OFF no Pix</p>
                 </div>   
-
-                <!---<div class="card_vitrine">
-                    <img src="assets/img/anime1.png" alt="caneca" onclick="window.open('caneca.html?data=img/anime1.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
-                </div>   
-
-                <div class="card_vitrine">
-                    <img src="assets/img/bomdia.png" alt="caneca" onclick="window.open('caneca.html?data=img/bomdia.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
-                </div>   
-
-                <div class="card_vitrine">
-                    <img src="assets/img/cupcake.png" alt="caneca" onclick="window.open('caneca.html?data=img/cupcake.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
-                </div>   
-
-                <div class="card_vitrine">
-                    <img src="assets/img/especial.png" alt="caneca" onclick="window.open('caneca.html?data=img/especial.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
-                </div>   
-
-                <div class="card_vitrine">
-                    <img src="assets/img/focus.png" alt="caneca" onclick="window.open('caneca.html?data=img/focus.png', '_self')"> 
-                    <p>Caneca Bom dia R$ 45,00</p>
-                </div>   
-
-                <div class="card_vitrine">
-                    <img src="assets/img/gatocafé.png" alt="caneca" onclick="window.open('caneca.html?data=img/gatocafé.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
-                </div> 
-
-                <div class="card_vitrine">
-                    <img src="assets/img/lvup.png" alt="caneca" onclick="window.open('caneca.html?data=img/lvup.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
-                </div> 
-
-                <div class="card_vitrine">
-                    <img src="assets/img/professor.png" alt="caneca" onclick="window.open('caneca.html?data=img/professor.png', '_self')">
-                    <p>Caneca Bom dia R$ 45,00</p>
-                </div>--->
             </article>
         </section>
     </main>
@@ -159,12 +145,12 @@
     </div>
 
     <div class="footer_bottom">
-        <p>© 2026 Sua Loja de Canecas. Todos os direitos reservados.</p>
+        <p>© 2026 Toma no Caneco. Todos os direitos reservados.</p>
     </div>
 
 </footer>
 
-    <script src="assets/script/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 

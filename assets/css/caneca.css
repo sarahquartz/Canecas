@@ -1,0 +1,50 @@
+/* caneca.html */
+
+.canceca_mostruario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.caneca_mostruario_img{
+    display: flex;
+    width: 40rem;
+    border: 0.2rem solid #faeddf;
+    border-radius: 0.4rem;
+    background-color: #faeddf;
+    margin: 0.2rem;
+}
+
+.caneca_mostruario_img img{
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+.canceca_descricao{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 20rem;
+    color: white;
+    background-color: #9B7B7B;
+    border: 0.2rem solid #faeddf;
+    border-radius: 0.4rem;
+    text-align: center;
+    align-items: center;
+    margin: 0.2rem;
+}
+
+.calcular_frete{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.calcular_frete h2{
+    color: greenyellow;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: nowrap;
+}
