@@ -105,6 +105,10 @@
     border-bottom: 0.5px solid rgba(245, 231, 224, 0.5);
 }
 
+.calcular-frete p {
+    display: none;
+}
+
 .frete{
     display: flex;
     flex-direction: column;
