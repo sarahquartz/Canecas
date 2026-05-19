@@ -3,48 +3,240 @@
 .canceca_mostruario{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem;
+    margin: 3rem auto;
+    max-width: 1000px;
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    overflow: hidden;
 }
 
 .caneca_mostruario_img{
     display: flex;
-    width: 40rem;
-    border: 0.2rem solid #faeddf;
-    border-radius: 0.4rem;
-    background-color: #faeddf;
-    margin: 0.2rem;
+    flex: 1;
+    max-width: 800px;
 }
 
 .caneca_mostruario_img img{
     width: 100%;
-    border-radius: 0.4rem;
+    object-fit: cover;
+    flex: 1;
 }
 
 .canceca_descricao{
+    flex: 2;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    width: 20rem;
-    color: white;
-    background-color: #9B7B7B;
-    border: 0.2rem solid #faeddf;
-    border-radius: 0.4rem;
-    text-align: center;
+    color: #F5E7E0;
+    background-color: #5B4343;
+    padding: 40px;
+    max-width: 400px;
+    gap: 20px;
+}
+
+.descricao {
+    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.descricao h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(245, 231, 224, 0.5);
+    margin-bottom: 15px;
+}
+
+
+.valores{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+.valores span{
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+
+.preco {
+    color:#E6A0A2;
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 0.6;
+}
+
+.desconto{
+    font-size: 0.7rem;
+    font-weight: 300; 
+}
+
+.sem-desconto{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 25px;
+    line-height: 0.6;
+}
+
+.parcela {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.botao-comprar{
+    display: flex;
     align-items: center;
-    margin: 0.2rem;
+    background: rgba(230, 160, 162);
+    color: #5B4343;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 25px;
+} 
+
+.calcular-frete{
+    margin-top: 45px;
 }
 
-.calcular_frete{
-    width: 10rem;
+.calcular-frete label{
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 0.5px solid rgba(245, 231, 224, 0.5);
+}
+
+.frete{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.calcular_frete h2{
-    color: greenyellow;
-    margin: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-wrap: nowrap;
+.input-cep-div{
+    display: flex;
+    align-items: center;
+    background: rgba(155, 123, 123,0.3);
+    border-radius: 40px;
+    margin-top: 20px;
 }
+
+.input-cep{
+    background: none;
+    border: 0;
+    outline: 0;
+    color:#F5E7E0;
+    font-size: 0.8rem;
+    padding: 0 0 0 20px;
+}
+.input-cep::placeholder{
+    font-size: 0.8rem;
+    color:#F5E7E0;
+    opacity: 0.8;
+}
+
+.botao-calcular-frete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 0.9;
+    border-radius: 20px;
+    padding: 5px;
+    color:#5B4343;
+    background-color: #E6A0A2;
+    border: 0;
+
+}
+
+.frete-gratis{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(230, 160, 162);
+    margin-top: 10px;
+}
+
+
+/*cópia da section do index.html*/
+.section-vitrine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.vitrine-info {
+    max-width: 480px;
+    color:rgb(91, 67, 67);
+}
+
+.vitrine-info h1{
+    font-size: 2rem;
+}
+
+.vitrine-info p{
+    font-size: 1.2rem;
+}
+
+.vitrine-info span{
+    display: block;
+}
+
+.vitrine{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.card_vitrine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.7rem;
+    padding: 0;
+    max-width: 220px;
+    color: #5B4343;
+    background-color: #F5E7E0;
+    border-radius: 40px 40px 20px 20px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}
+
+.card_vitrine h3{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.preco-vitrine {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.parcela-vitrine {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.desconto-vitrine {
+    font-size: 0.7rem;
+    font-weight: 300; 
+}
+
+.card_vitrine:hover{
+    cursor:pointer;
+    transform: translateY(-4px);
+    box-shadow: 0px 20px 30px 5px rgba(53, 50, 47, 0.2);
+}
+
+.card_vitrine img{
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card_vitrine:hover img {
+    transform: scale(1.05);
+}
+
